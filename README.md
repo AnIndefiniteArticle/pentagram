@@ -18,6 +18,8 @@ To reinstantiate a python environment with the latest set of known-to-be-working
 
 Once built the first time, you will only need to use the second command to return to the environment.
 
+Alternatively, you can just use the third command to install the requirements in your existing python environment, and hope for the best.
+
 TODO: Once we have the library importable, show how to import and use it
 
 # Overview of contents
