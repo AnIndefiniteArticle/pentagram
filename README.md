@@ -20,3 +20,39 @@ TODO: Once we have the library importable, show how to import and use it
 
 Initial state: all code was in an `.ipynb`, with functions dumped at the top.
 These functions will be turned into a library to be imported, with documentation.
+
+#### Description of initial ipynb from Dick French
+
+## VIMS_alpOri271I_analysis_v2.ipynb
+
+Richard G. French, Wellesley College
+
+This Jupyter notebook contains an analysis of the Cassini VIMS observations of the alpOri271 occultation, using data provided by An Foster and Phil Nicholson.
+
+The following steps are performed:
+
+1) Perform model fits to the observations:
+    isothermal fits
+    isothermal + absorption model based on Goody random band model
+2) Overplot Phil Nicholson's model predictions
+3) Perform numerical inversion of observations to derive T(P) profile
+4) Compare retrieved T(P) with CIRS observations
+5) Construct synthetic lightcurve based on CIRS T(P) and compare with observations
+6) Perform end-to-end test of inverting the synthetic lightcurve to show that it matches input T(P)
+
+This is a non-interactive notebook - simply run all cells
+All required Python packages and data files are defined in the first code cell
+All individual functions and procedures are in separate cells, with a description of the purpose and method of each.
+The final cells perform the numbered steps above.
+
+Revisions:
+
+v2:
+
+    2023 Oct 10 - rfrench - Move all routines to top, retain tests for documentation, but start new section
+
+Liens:
+
+1. g(r) not implemented - assumed to be constant over range of inversion (easy to fix)
+
+
