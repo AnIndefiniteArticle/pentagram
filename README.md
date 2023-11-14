@@ -3,6 +3,10 @@ This repository has a goal of becoming a library!
 The code will have documentation, tests, etc.
 This will make these functions accessible to other researchers! (including me!)
 
+The name pentagram is because the functions perform inversions of occultation lightcurves.
+A pentagram is an inverted star, and is associated with the occult.
+It's a thermometer that uses refraction to recover the thermal profile of an atmosphere.
+
 # How to install
 
 Currently, `pip freeze` output is stored in the `requirements.txt` file.
