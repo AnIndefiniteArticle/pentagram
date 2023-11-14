@@ -1,0 +1,18 @@
+ atmocc_imaging.pro
+
+  alpOri(271):  nf, nx, nz = 1504 16  4
+
+  half-light =  930
+  t_cube =  1.68 sec
+  t_pixel = 0.021 sec
+ 
+  rc = 54914.3 km
+  vperp =  -2.331 km/s
+  lat_c = -74.44 deg
+  lat_g = -77.23 deg
+  time = 1566.16 sec
+  range =  6.8726e+05 km
+  alpha =  -66.36 deg
+  r_curv = 66043.5 km
+ 
+Wed Jun 26 21:31:46 2019
