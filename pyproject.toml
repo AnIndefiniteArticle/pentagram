@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pentagram"
+version = "0.1.0"
+description = "Inverse Abel Transformation of Occultation Yields Thermal Profile"
+authors = ["Wander An Scott Dickson <anindefinitearticle@pm.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+jupyter = "^1.0.0"
+jupyterlab = "^4.0.8"
+numpy = "^1.26.2"
+scipy = "^1.11.3"
+astropy = "^5.3.4"
+matplotlib = "^3.8.1"
+spiceypy = "^6.0.0"
+lmfit = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
