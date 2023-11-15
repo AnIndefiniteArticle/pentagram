@@ -49,6 +49,8 @@ This will open a web browser tab where you can find a jupyter lab development en
 
 To import the pentagram functions defined in the library located in the `pentagram/` directory, simply add `import pentagram` to the top of any `.py` file or notebook.
 
+**NOTE: I suppose that to use poetry properly as a release system to PyPI and pip, we should remove the embedded jupyter environment and set up an external one. This hack works for now.
+
 # Overview of contents
 
 Initial state: all code was in an `.ipynb`, with functions dumped at the top.
