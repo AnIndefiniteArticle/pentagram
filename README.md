@@ -9,6 +9,8 @@ It's a thermometer that uses refraction to recover the thermal profile of an atm
 
 # How to install
 
+### Virtual Environment
+
 Currently, `pip freeze` output is stored in the `requirements.txt` file.
 To reinstantiate a python environment with the latest set of known-to-be-working libraries, do the following in the root directory of this repository:
 
@@ -19,6 +21,12 @@ To reinstantiate a python environment with the latest set of known-to-be-working
 Once built the first time, you will only need to use the second command to return to the environment.
 
 Alternatively, you can just use the third command to install the requirements in your existing python environment, and hope for the best.
+
+### Poetry
+
+Install poetry, and it reads the pyproject.toml and poetry.lock to run the specified environment
+
+## Importing Library
 
 TODO: Once we have the library importable, show how to import and use it
 
