@@ -1,13 +1,18 @@
-# Initial code and functions from Dick French
+# Pentagram is a thermometer
 This repository has a goal of becoming a library!
 The code will have documentation, tests, etc.
 This will make these functions accessible to other researchers! (including me!)
+
+I started out using my usual method of tracking package versions (venv + pip), and I found poetry along the way.
+I currently have the code working in both systems, and may switch over to poetry entirely.
 
 The name pentagram is because the functions perform inversions of occultation lightcurves.
 A pentagram is an inverted star, and is associated with the occult.
 It's a thermometer that uses refraction to recover the thermal profile of an atmosphere.
 
 # How to install
+
+## Two install paths
 
 ### Virtual Environment
 
@@ -28,9 +33,21 @@ Install poetry, and it reads the pyproject.toml and poetry.lock to run the speci
 
 To install poetry, see [the official documentation](https://python-poetry.org/docs/#installing-manually)
 
-## Importing Library
+Then, just cd into the head directory of this repository and run
 
-TODO: Once we have the library importable, show how to import and use it
+    $ poetry shell
+
+to enter the python environment tested to work with this code. 
+
+# Using the library environment 
+
+This environment also includes a jupyter lab workspace, which can be accessed within the `poetry shell` via:
+
+    $ jupyter lab
+
+This will open a web browser tab where you can find a jupyter lab development environment including python terminal, bash terminal, notebooks, and a text editor.
+
+To import the pentagram functions defined in the library located in the `pentagram/` directory, simply add `import pentagram` to the top of any `.py` file or notebook.
 
 # Overview of contents
 
