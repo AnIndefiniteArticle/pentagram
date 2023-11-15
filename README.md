@@ -26,6 +26,8 @@ Alternatively, you can just use the third command to install the requirements in
 
 Install poetry, and it reads the pyproject.toml and poetry.lock to run the specified environment
 
+To install poetry, see [the official documentation](https://python-poetry.org/docs/#installing-manually)
+
 ## Importing Library
 
 TODO: Once we have the library importable, show how to import and use it
