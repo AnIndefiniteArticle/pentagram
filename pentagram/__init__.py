@@ -1,6 +1,3 @@
-import os
-import astropy.units as u
-
 __all__ = ["ftheta_hat",
            "get_phi_vals",
            "get_phi_tau_vals",
@@ -51,6 +48,9 @@ from .pro_lcgen_v2 import pro_lcgen_v2
 from .pro_lcinvert import pro_lcinvert
 
 """ hard coded stuff that the functions need in their current state """
+
+import os
+import astropy.units as u
 
 # specify paths to required data files, and define VIMS dictionary with event information
 
