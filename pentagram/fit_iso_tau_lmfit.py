@@ -1,3 +1,5 @@
+import numpy as np
+from .get_phi_tau_vals import get_phi_tau_vals
 # compute isothermal + opacity model and residuals to observations, used by lmfit
 
 def fit_iso_tau_lmfit(params,tsec,v_perp_kms,tau_hl,tau_gamma,data,\

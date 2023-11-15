@@ -1,3 +1,4 @@
+from .get_phi_vals import get_phi_vals
 # compute isothermal model and residuals to observations, used by lmfit
 
 def fit_iso_lmfit(params,tsec,v_perp_kms,data,\

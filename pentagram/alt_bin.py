@@ -1,3 +1,6 @@
+import numpy as np
+import astropy.units as u
+
 #rebin normalized input lightcurve into equal altitude bins
 def alt_bin(that_vals,flux,dh_bin,ha,D,tau_hl=0,Verbose=False):
     

@@ -1,3 +1,5 @@
+import numpy as np
+
 def pro_lcgen_v2(R_in,nu_in,D_in):
     R = R_in.value
     nu = nu_in

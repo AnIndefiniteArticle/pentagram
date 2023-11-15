@@ -1,3 +1,7 @@
+import astropy.constants as const
+import astropy.units as u
+import numpy as np
+
 # get physical units profile from refractivity
 
 def pro_refrac2profile(R,nu,Ttop,G,mu,refrac):

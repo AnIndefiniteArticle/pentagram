@@ -1,3 +1,5 @@
+import numpy as np
+
 # determine refractivity and bending angle from numerical inversion of lightcurve
 def pro_lcinvert(rho_in,phi_cyl_in,nu0_in,D_in):
 #    rho_in: distance in observer plane of ray from projected center of planet in km
@@ -73,7 +75,7 @@ def pro_lcinvert(rho_in,phi_cyl_in,nu0_in,D_in):
 #             print('Aji1',Aji1)
 #             print('dnu[i]',dnu[i])
 #             print('nu[i]',nu[i])
-        print(i,end='\\r')
+        print(i,end='\r')
     nu[0] = nu[1]
     nu[-1]=nu[-2]
     return nu,theta,R

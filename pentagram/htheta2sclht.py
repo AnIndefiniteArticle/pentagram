@@ -1,3 +1,5 @@
+import astropy.units as u
+
 # altitude and bending angle to pressure, density, scale height, and temperature
 # using summations, but no isothermal cap to infinity
 

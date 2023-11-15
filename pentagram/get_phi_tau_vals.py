@@ -1,3 +1,7 @@
+import numpy as np
+from .ftheta_hat import ftheta_hat
+from scipy.optimize import fsolve
+
 # normalized flux as function of non-dimensional time \
 # (that_vals in scale-heights in observer plane)
 # for isothermal atmosphere with optional random band model opacity

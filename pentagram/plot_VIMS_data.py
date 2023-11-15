@@ -1,6 +1,11 @@
+import csv
+import numpy as np
+import matplotlib.pyplot as plt
+
 # Read and plot the data...
 
 def plot_VIMS_data(infile,figfile_rawdata):
+    from pentagram import VIMS
     with open(infile,newline='') as csvfile:
         reader = csv.reader(csvfile)
         counts = np.array(list(reader),dtype='float')[:,0]

@@ -1,3 +1,11 @@
+from lmfit import Parameters,minimize,fit_report
+import numpy as np
+from .fit_iso_to_observations import fit_iso_to_observations
+from .fit_iso_tau_to_observations import fit_iso_tau_to_observations
+from .fit_iso_lmfit import fit_iso_lmfit
+from .fit_iso_tau_lmfit import fit_iso_tau_lmfit
+import matplotlib.pyplot as plt
+
 #isothermal fits with CIRS synthetic lightcurve overplotted
 def plot_isofits_CIRS(VIMS,tsec_CIRS,flux_CIRS,counts,figfile_isofits_CIRS):
     params = Parameters()

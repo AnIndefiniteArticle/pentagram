@@ -1,3 +1,5 @@
+from lmfit import Parameters,minimize,fit_report
+from .fit_iso_lmfit import fit_iso_lmfit
 # perform isothermal fit to raw lightcurve, using minimize()
 
 def fit_iso_to_observations(tsec,v_perp_kms,data,params,\

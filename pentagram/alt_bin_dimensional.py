@@ -1,3 +1,6 @@
+import numpy as np
+import astropy.units as u
+
 def alt_bin_dimensional(that_vals_sec,flux,dh_bin_km,hakm,vperp_kms,Dkm,tau_hl=0,Verbose=False):
         
     dt_av = that_vals_sec[1] - that_vals_sec[0]

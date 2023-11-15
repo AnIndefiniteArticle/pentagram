@@ -1,3 +1,7 @@
+import numpy as np
+import astropy.constants as const
+import astropy.units as u
+
 def lnbarometric2(lnP, h, method_ToflogPmbar,mu,g):
 
     T = method_ToflogPmbar(lnP)*u.K

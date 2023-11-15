@@ -1,3 +1,7 @@
+import numpy as np
+import astropy.constants as const
+import astropy.units as u
+
 def lnbarometric(lnP, h, method_TofPmbar,mu,g):
     P = np.exp(lnP)
     T = method_TofPmbar(P)*u.K
