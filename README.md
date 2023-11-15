@@ -29,7 +29,7 @@ Alternatively, you can just use the third command to install the requirements in
 
 ### Poetry
 
-Install poetry, and it reads the pyproject.toml and poetry.lock to run the specified environment
+`poetry` reads the `pyproject.toml` and `poetry.lock` to run the specified environment
 
 To install poetry, see [the official documentation](https://python-poetry.org/docs/#installing-manually)
 
@@ -49,9 +49,11 @@ This will open a web browser tab where you can find a jupyter lab development en
 
 To import the pentagram functions defined in the library located in the `pentagram/` directory, simply add `import pentagram` to the top of any `.py` file or notebook.
 
-**NOTE: I suppose that to use poetry properly as a release system to PyPI and pip, we should remove the embedded jupyter environment and set up an external one. This hack works for now, and we can make the jupyter testing environment optional via the Makefile when the project is ready for considering how to release it. Until there is a proper split between "dev" and "prod", consider all instances of this library to be in alpha and active development.
+**NOTE: I suppose that to use poetry properly as a release system to PyPI and pip, we should remove the embedded jupyter environment and set up an external one. This hack works for now, and we can make the jupyter testing environment optional via the Makefile when the project is ready for considering how to release it. Until there is a proper split between "dev" and "prod", consider all instances of this library to be in alpha and active development.**
 
 # Overview of contents
+
+**TODO**
 
 Initial state: all code was in an `.ipynb`, with functions dumped at the top.
 These functions will be turned into a library to be imported, with documentation.
