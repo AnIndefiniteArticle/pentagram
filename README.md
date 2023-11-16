@@ -35,11 +35,8 @@ To install poetry, see [the official documentation](https://python-poetry.org/do
 
 Then, just cd into the head directory of this repository and run
 
-    $ poetry shell
-
-to enter the python environment tested to work with this code. To make sure that all dependencies are installed, use:
-
-    $ poetry install
+    $ poetry install # install dependencies specified in `poetry.lock`
+    $ poetry shell   # enter the environment
 
 # Using the library environment 
 
