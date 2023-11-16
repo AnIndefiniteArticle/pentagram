@@ -37,7 +37,9 @@ Then, just cd into the head directory of this repository and run
 
     $ poetry shell
 
-to enter the python environment tested to work with this code. 
+to enter the python environment tested to work with this code. To make sure that all dependencies are installed, use:
+
+    $ poetry install
 
 # Using the library environment 
 
@@ -48,8 +50,6 @@ This environment also includes a jupyter lab workspace, which can be accessed wi
 This will open a web browser tab where you can find a jupyter lab development environment including python terminal, bash terminal, notebooks, and a text editor.
 
 To import the pentagram functions defined in the library located in the `pentagram/` directory, simply add `import pentagram` to the top of any `.py` file or notebook.
-
-**NOTE: I suppose that to use poetry properly as a release system to PyPI and pip, we should remove the embedded jupyter environment and set up an external one. This hack works for now, and we can make the jupyter testing environment optional via the Makefile when the project is ready for considering how to release it. Until there is a proper split between "dev" and "prod", consider all instances of this library to be in alpha and active development.**
 
 # Overview of contents
 
