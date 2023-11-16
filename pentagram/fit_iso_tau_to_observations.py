@@ -1,6 +1,5 @@
 from lmfit import Parameters,minimize,fit_report
 from .fit_iso_tau_lmfit import fit_iso_tau_lmfit
-
 # perform isothermal fit + opacity to raw lightcurve, using minimize()
 
 def fit_iso_tau_to_observations(tsec,v_perp_kms,tau_hl,tau_gamma,data,params,\
